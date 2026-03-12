@@ -1,0 +1,17 @@
+[
+    {
+        "city": "Delhi",
+        "rainfall": 0.0,
+        "risk": "LOW"
+    },
+    {
+        "city": "Dhaka",
+        "rainfall": 14.6,
+        "risk": "LOW"
+    },
+    {
+        "city": "Manila",
+        "rainfall": 0.0,
+        "risk": "LOW"
+    }
+]

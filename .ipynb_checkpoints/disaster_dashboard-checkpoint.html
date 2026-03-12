@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_112013cf4c8c2e28a29f9c8078cf0825 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_112013cf4c8c2e28a29f9c8078cf0825" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_112013cf4c8c2e28a29f9c8078cf0825 = L.map(
+                "map_112013cf4c8c2e28a29f9c8078cf0825",
+                {
+                    center: [20.0, 100.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c488118c7e9888d8ee727151902053b9 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_c488118c7e9888d8ee727151902053b9.addTo(map_112013cf4c8c2e28a29f9c8078cf0825);
+        
+    
+            var marker_791b9b7ce1690e8d0e025d1eeaeff03c = L.marker(
+                [28.61, 77.2],
+                {
+}
+            ).addTo(map_112013cf4c8c2e28a29f9c8078cf0825);
+        
+    
+            var icon_a7dfcaa7e4392af60447295f1cd771bd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0494483b082b5fa5b7ea4335e6dbfba8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cc11fb088c4170b3b05b84f9afdcf8f0 = $(`<div id="html_cc11fb088c4170b3b05b84f9afdcf8f0" style="width: 100.0%; height: 100.0%;">Delhi | Rainfall: 0.0 mm | Risk: LOW</div>`)[0];
+                popup_0494483b082b5fa5b7ea4335e6dbfba8.setContent(html_cc11fb088c4170b3b05b84f9afdcf8f0);
+            
+        
+
+        marker_791b9b7ce1690e8d0e025d1eeaeff03c.bindPopup(popup_0494483b082b5fa5b7ea4335e6dbfba8)
+        ;
+
+        
+    
+    
+                marker_791b9b7ce1690e8d0e025d1eeaeff03c.setIcon(icon_a7dfcaa7e4392af60447295f1cd771bd);
+            
+    
+            var marker_e87b2d5662c3a446d11c4b22370a8ba7 = L.marker(
+                [23.81, 90.41],
+                {
+}
+            ).addTo(map_112013cf4c8c2e28a29f9c8078cf0825);
+        
+    
+            var icon_3a90835962395c8e377fc72c4e636931 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5c22752bef7233308c9ff3cd7e6fa796 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_12cd5024a8af789e0451ddf6fc737d4f = $(`<div id="html_12cd5024a8af789e0451ddf6fc737d4f" style="width: 100.0%; height: 100.0%;">Dhaka | Rainfall: 14.6 mm | Risk: LOW</div>`)[0];
+                popup_5c22752bef7233308c9ff3cd7e6fa796.setContent(html_12cd5024a8af789e0451ddf6fc737d4f);
+            
+        
+
+        marker_e87b2d5662c3a446d11c4b22370a8ba7.bindPopup(popup_5c22752bef7233308c9ff3cd7e6fa796)
+        ;
+
+        
+    
+    
+                marker_e87b2d5662c3a446d11c4b22370a8ba7.setIcon(icon_3a90835962395c8e377fc72c4e636931);
+            
+    
+            var marker_5dbee027e3034e4cedab7ff35fcc04be = L.marker(
+                [14.6, 120.98],
+                {
+}
+            ).addTo(map_112013cf4c8c2e28a29f9c8078cf0825);
+        
+    
+            var icon_1c2647f13850de039ba3fef4e76d7007 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c60cf2e20b1ba1ec2cdd6a74aa4c3054 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f399538e6acbc37987aad1a2931f878a = $(`<div id="html_f399538e6acbc37987aad1a2931f878a" style="width: 100.0%; height: 100.0%;">Manila | Rainfall: 0.0 mm | Risk: LOW</div>`)[0];
+                popup_c60cf2e20b1ba1ec2cdd6a74aa4c3054.setContent(html_f399538e6acbc37987aad1a2931f878a);
+            
+        
+
+        marker_5dbee027e3034e4cedab7ff35fcc04be.bindPopup(popup_c60cf2e20b1ba1ec2cdd6a74aa4c3054)
+        ;
+
+        
+    
+    
+                marker_5dbee027e3034e4cedab7ff35fcc04be.setIcon(icon_1c2647f13850de039ba3fef4e76d7007);
+            
+    
+            var marker_908a01ef394c9c5eb78f33bb9aa950a8 = L.marker(
+                [13.75, 100.5],
+                {
+}
+            ).addTo(map_112013cf4c8c2e28a29f9c8078cf0825);
+        
+    
+            var icon_1d876f8d714a98874528313c4fb5ac1c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a12e79b1b9df4da84d8bbea7f3a9a153 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3be002c70bf6a74ef40f4ec614a816e0 = $(`<div id="html_3be002c70bf6a74ef40f4ec614a816e0" style="width: 100.0%; height: 100.0%;">Bangkok | Rainfall: 0.2 mm | Risk: LOW</div>`)[0];
+                popup_a12e79b1b9df4da84d8bbea7f3a9a153.setContent(html_3be002c70bf6a74ef40f4ec614a816e0);
+            
+        
+
+        marker_908a01ef394c9c5eb78f33bb9aa950a8.bindPopup(popup_a12e79b1b9df4da84d8bbea7f3a9a153)
+        ;
+
+        
+    
+    
+                marker_908a01ef394c9c5eb78f33bb9aa950a8.setIcon(icon_1d876f8d714a98874528313c4fb5ac1c);
+            
+    
+            var marker_3bd00ff1a3794d7bb4df4f6dcc5ca5a1 = L.marker(
+                [-6.2, 106.85],
+                {
+}
+            ).addTo(map_112013cf4c8c2e28a29f9c8078cf0825);
+        
+    
+            var icon_33291f92bfd28d5f2372ed58fcb294d7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0b42fe18aa3bd30203d6289396433662 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fbd2fa5c8a7e3f539fd0ceaf909b7c55 = $(`<div id="html_fbd2fa5c8a7e3f539fd0ceaf909b7c55" style="width: 100.0%; height: 100.0%;">Jakarta | Rainfall: 0.0 mm | Risk: LOW</div>`)[0];
+                popup_0b42fe18aa3bd30203d6289396433662.setContent(html_fbd2fa5c8a7e3f539fd0ceaf909b7c55);
+            
+        
+
+        marker_3bd00ff1a3794d7bb4df4f6dcc5ca5a1.bindPopup(popup_0b42fe18aa3bd30203d6289396433662)
+        ;
+
+        
+    
+    
+                marker_3bd00ff1a3794d7bb4df4f6dcc5ca5a1.setIcon(icon_33291f92bfd28d5f2372ed58fcb294d7);
+            
+    
+            var marker_d60fad2206714ba2e961174fae44d212 = L.marker(
+                [24.86, 67.01],
+                {
+}
+            ).addTo(map_112013cf4c8c2e28a29f9c8078cf0825);
+        
+    
+            var icon_d8cff70361aaaa2ea1ae1b32f79fd103 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_460838c237e995bae66e0c5faab819d5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c52a85591f64e4315e7091d06c92fbd1 = $(`<div id="html_c52a85591f64e4315e7091d06c92fbd1" style="width: 100.0%; height: 100.0%;">Karachi | Rainfall: 0.0 mm | Risk: LOW</div>`)[0];
+                popup_460838c237e995bae66e0c5faab819d5.setContent(html_c52a85591f64e4315e7091d06c92fbd1);
+            
+        
+
+        marker_d60fad2206714ba2e961174fae44d212.bindPopup(popup_460838c237e995bae66e0c5faab819d5)
+        ;
+
+        
+    
+    
+                marker_d60fad2206714ba2e961174fae44d212.setIcon(icon_d8cff70361aaaa2ea1ae1b32f79fd103);
+            
+    
+            var marker_7c44edb143dde6fd9997357bbe8fec0a = L.marker(
+                [35.68, 139.69],
+                {
+}
+            ).addTo(map_112013cf4c8c2e28a29f9c8078cf0825);
+        
+    
+            var icon_9393d76e4f5d1f30600fdd6effc4f497 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d77670963e66d40dac7e04a3798358ce = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5aff56f48a3e644721c0ba2a5ffab914 = $(`<div id="html_5aff56f48a3e644721c0ba2a5ffab914" style="width: 100.0%; height: 100.0%;">Tokyo | Rainfall: 0.0 mm | Risk: LOW</div>`)[0];
+                popup_d77670963e66d40dac7e04a3798358ce.setContent(html_5aff56f48a3e644721c0ba2a5ffab914);
+            
+        
+
+        marker_7c44edb143dde6fd9997357bbe8fec0a.bindPopup(popup_d77670963e66d40dac7e04a3798358ce)
+        ;
+
+        
+    
+    
+                marker_7c44edb143dde6fd9997357bbe8fec0a.setIcon(icon_9393d76e4f5d1f30600fdd6effc4f497);
+            
+    
+            var marker_39c6a9295ca9f17610052c4f585af93a = L.marker(
+                [37.56, 126.97],
+                {
+}
+            ).addTo(map_112013cf4c8c2e28a29f9c8078cf0825);
+        
+    
+            var icon_15c24bbc7b298ba84a6a0d09fbc85676 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a75b186c642c1f26887cde544199fe87 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c8cecd3e376b3c270fc5f2cd350744f = $(`<div id="html_5c8cecd3e376b3c270fc5f2cd350744f" style="width: 100.0%; height: 100.0%;">Seoul | Rainfall: 0.0 mm | Risk: LOW</div>`)[0];
+                popup_a75b186c642c1f26887cde544199fe87.setContent(html_5c8cecd3e376b3c270fc5f2cd350744f);
+            
+        
+
+        marker_39c6a9295ca9f17610052c4f585af93a.bindPopup(popup_a75b186c642c1f26887cde544199fe87)
+        ;
+
+        
+    
+    
+                marker_39c6a9295ca9f17610052c4f585af93a.setIcon(icon_15c24bbc7b298ba84a6a0d09fbc85676);
+            
+</script>
+</html>
